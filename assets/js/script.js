@@ -83,7 +83,7 @@ new Swiper(".swiper-advantages", {
 });
 
 new Swiper(".swiper-modes", {
-    slidesPerView: 1.4,
+    slidesPerView: 1.35,
     spaceBetween: 10,
     pagination: {
         el: ".modes .swiper-pagination",

@@ -2,10 +2,6 @@
     .hero .device {
         display: none;
     }
-
-    .modes__content-image {
-        margin-left: 74px;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -13,10 +9,6 @@
     .hero__video {
         width: 50%;
     }
-    .modes__content-image {
-        margin-left: 40px;
-    }
-
     .services__right-image {
         max-width: 60%;
         margin: auto;
@@ -312,84 +304,80 @@
     }
 
     .note-desktop.note-1 {
-        top: 6.88%;
-        left: 1.04%;
+        top: 3.49%;
+        left: 0.85%;
     }
     .note-desktop.note-2 {
-        top: 8.86%;
-        left: 18.95%;
+        top: 6.376%;
+        left: 85.68%;
     }
     .note-desktop.note-3 {
-        top: 4.91%;
-        left: 91.18%;
+        top: 9.8%;
+        left: 66.61%;
     }
     .note-desktop.note-4 {
-        top: 11.18%;
-        left: 59%;
+        top: 19.53%;
+        left: 68.47%;
     }
     .note-desktop.note-5 {
-        top: 20.93%;
-        left: 76.87%;
+        top: 43.72%;
+        left: 67.46%;
     }
     .note-desktop.note-6 {
-        top: 38.5%;
-        left: 68.98%;
+        top: 16.96%;
+        left: 25.42%;
     }
     .note-desktop.note-7 {
-        top: 89.46%;
-        left: 80.62%;
+        top: 47.4%;
+        left: 45.93%;
     }
     .note-desktop.note-8 {
-        top: 73.36%;
-        left: 73.52%;
+        top: 50%;
+        left: 92.46%;
     }
-    .note-desktop.note-8-5 {
-        top: 14.4%;
-        left: 8.62%;
+    .note-desktop.note-9 {
+        top: 78.84%;
+        left: 76.02%;
     }
     .note-desktop.note-10 {
-        top: 61.42%;
-        left: 81.27%;
+        top: 93.8%;
+        left: 90.25%;
     }
     .note-desktop.note-11 {
-        top: 77.16%;
-        left: 64.83%;
-    }
-    .note-desktop.note-11-5 {
-        top: 64%;
-        left: 36%;
+        top: 23.67%;
+        left: 20.59%;
     }
     .note-desktop.note-12 {
-        top: 7.05%;
-        left: 48.05%;
+        top: 19.32%;
+        left: 36.78%;
     }
     .note-desktop.note-13 {
-        top: 74.13%;
-        left: 32.11%;
+        top: 29.98%;
+        left: 77.88%;
     }
     .note-desktop.note-14 {
-        top: 67.5%;
-        left: 64.92%;
+        top: 16%;
+        left: 28.22%;
     }
     .note-desktop.note-15 {
-        top: 86.58%;
-        left: 72.46%;
+        top: 29%;
+        left: 38%;
     }
     .note-desktop.note-16 {
-        top: 5.32%;
-        left: 42.8%;
+        top: 71%;
+        left: 33.5%;
     }
     .note-desktop.note-17 {
-        top: 72.65%;
-        left: 64.54%;
+        top: 72.3%;
+        left: 89.6%;
     }
     .note-desktop.note-18 {
-        top: 85.71%;
-        left: 58.9%;
+        top: 64.09%;
+        left: 9.5%;
     }
     .note-desktop.note-19 {
-        top: 65.44%;
-        left: 33.22%;
+        top: 72%;
+        left: 72%;
     }
     .note-desktop.note-20 {
         top: 20.16%;
@@ -507,30 +495,6 @@
         top: 69.91%;
         left: 81.78%;
     }
-    .note-desktop.note-51 {
-        top: 14%;
-        left: 27.22%;
-    }
-    .note-desktop.note-52 {
-        top: 29%;
-        left: 37%;
-    }
-    .note-desktop.note-53 {
-        top: 71%;
-        left: 33.5%;
-    }
-    .note-desktop.note-54 {
-        top: 72.3%;
-        left: 89.6%;
-    }
-    .note-desktop.note-55 {
-        top: 54.09%;
-        left: 38.5%;
-    }
-    .note-desktop.note-56 {
-        top: 76%;
-        left: 53%;
-    }
     .note-desktop.note-57 {
         top: 24.64%;
         left: 15.08%;
@@ -541,64 +505,61 @@
     }
 
     .note-desktop.note-1 .note-desktop-text {
-        width: 274px;
+        width: 296px;
     }
     .note-desktop.note-2 .note-desktop-text {
-        width: 236px;
+        width: 312px;
     }
     .note-desktop.note-3 .note-desktop-text {
-        width: 236px;
+        width: 346px;
     }
     .note-desktop.note-4 .note-desktop-text {
         width: 314px;
     }
     .note-desktop.note-5 .note-desktop-text {
-        width: 302px;
+        width: 318px;
     }
     .note-desktop.note-6 .note-desktop-text {
-        width: 272px;
-    }
-    .note-desktop.note-7 .note-desktop-text {
-        width: 314px;
-    }
-    .note-desktop.note-8 .note-desktop-text {
         width: 288px;
     }
-    .note-desktop.note-8-5 .note-desktop-text {
-        width: 302px;
+    .note-desktop.note-7 .note-desktop-text {
+        width: 258px;
+    }
+    .note-desktop.note-8 .note-desktop-text {
+        width: 330px;
+    }
+    .note-desktop.note-9 .note-desktop-text {
+        width: 404px;
     }
     .note-desktop.note-10 .note-desktop-text {
-        width: 334px;
+        width: 294px;
     }
     .note-desktop.note-11 .note-desktop-text {
         width: 226px;
     }
-    .note-desktop.note-11-5 .note-desktop-text {
-        width: 232px;
-    }
     .note-desktop.note-12 .note-desktop-text {
-        width: 288px;
+        width: 332px;
     }
     .note-desktop.note-13 .note-desktop-text {
-        width: 250px;
+        width: 234px;
     }
     .note-desktop.note-14 .note-desktop-text {
-        width: 270px;
+        width: 326px;
     }
     .note-desktop.note-15 .note-desktop-text {
-        width: 272px;
+        width: 280px;
     }
     .note-desktop.note-16 .note-desktop-text {
-        width: 278px;
+        width: 256px;
     }
     .note-desktop.note-17 .note-desktop-text {
-        width: 250px;
+        width: 346px;
     }
     .note-desktop.note-18 .note-desktop-text {
-        width: 272px;
+        width: 360px;
     }
     .note-desktop.note-19 .note-desktop-text {
-        width: 270px;
+        width: 284px;
     }
     .note-desktop.note-20 .note-desktop-text {
         width: 268px;
@@ -686,24 +647,6 @@
     }
     .note-desktop.note-50 .note-desktop-text {
         width: 316px;
-    }
-    .note-desktop.note-51 .note-desktop-text {
-        width: 326px;
-    }
-    .note-desktop.note-52 .note-desktop-text {
-        width: 278px;
-    }
-    .note-desktop.note-53 .note-desktop-text {
-        width: 256px;
-    }
-    .note-desktop.note-54 .note-desktop-text {
-        width: 404px;
-    }
-    .note-desktop.note-55 .note-desktop-text {
-        width: 266px;
-    }
-    .note-desktop.note-56 .note-desktop-text {
-        width: 226px;
     }
     .note-desktop.note-57 .note-desktop-text {
         width: 246px;
@@ -1017,109 +960,74 @@
         margin-top: 32px;
     }
 
-    /* services */
-    .services {
-        margin-top: 158px;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        padding-bottom: 90px;
-    }
-
-    .services__left {
-        width: 55%;
-    }
-
-    .services__left .heading.lv3 {
-        margin-bottom: 32px;
-    }
-
-    .services__left .text-main:not(:last-child) {
-        margin-bottom: 40px;
-    }
-
-    .services__right {
-        width: 50%;
-    }
-
-    .services__right-image {
-        margin: 30px -60px -60px 0px;
-        max-width: unset;
-    }
-
-    /* important */
-    .important__head .heading.lv3 {
-        margin-bottom: 0;
-    }
-
-    .important__head {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-box-align: end;
-        -ms-flex-align: end;
-        align-items: flex-end;
-    }
-
-    .important__head .heading.lv3 {
-        width: 50%;
-    }
-
-    .important__head .text-main {
-        width: 50%;
-        margin-bottom: 4px;
-    }
-
-    .important__content {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-        -webkit-column-gap: 20px;
-        -moz-column-gap: 20px;
-        column-gap: 20px;
+    /* Similar */
+    .similar__content {
         margin-top: 60px;
     }
 
-    .important__content-block {
-        width: 50%;
+    .similar__head > * {
+        flex: unset;
     }
 
-    .important__content-block:nth-child(2) {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-        justify-content: flex-end;
+    .similar__features {
+        flex-direction: row;
+        gap: 20px;
     }
 
-    .important__content-block:nth-child(2) .important__content-image-block {
-        margin: 0 -60px 40px 0px;
-        margin-top: unset;
+    .similar__feature {
+        height: 180px;
+        padding: 30px;
+        width: calc((100% - 40px) / 3);
     }
 
-    .important__content-block:nth-child(2) .important__content-image {
-        margin-top: 15px;
+    .similar__image {
+        margin-top: 20px;
     }
 
-    .important__content-block:nth-child(1) .important__content-image-block {
-        margin: auto -60px -60px -60px;
+    /* Art */
+    .art .heading.lv2 {
+        max-width: 800px;
     }
 
-    .important__content-block:nth-child(1) .important__content-image {
-        margin: 0;
+    .art__content {
+        margin-top: 60px;
     }
 
-    .important__content-image.important__content-image-desktop {
+    .art__content .heading.lv3 {
+        margin-bottom: 40px;
         display: block;
     }
 
-    .important__content-image.important__content-image-mobile {
-        display: none;
+    /* Order */
+    .order__wrapper {
+        margin-top: 60px;
+        -webkit-column-gap: 20px;
+        -moz-column-gap: 20px;
+        column-gap: 20px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .order__wrapper .section__content-block {
+        padding: 40px;
+        margin-top: 0;
+    }
+
+    .order__wrapper .section__content-block:nth-child(1) figure {
+        margin-right: -40px;
+        margin-left: -25px;
+        margin-top: -18px;
+    }
+
+    .order__wrapper .section__content-block:nth-child(1) figure:nth-child(2) {
+        margin-top: -104px;
+        margin-bottom: -20px;
+    }
+
+    .order__wrapper .section__content-block:nth-child(2) figure:nth-child(2) {
+        margin: -168px -40px -20px 113px;
     }
 
     /* features */
@@ -1829,35 +1737,6 @@
 
     .basket__content-images {
         position: relative;
-    }
-
-    /* Order */
-    .order__wrapper {
-        margin-top: 60px;
-        -webkit-column-gap: 20px;
-        -moz-column-gap: 20px;
-        column-gap: 20px;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-    }
-
-    .order__wrapper .section__content-block {
-        padding: 40px;
-        margin-top: 0;
-    }
-
-    .order__wrapper .section__content-block:nth-child(1) figure {
-        margin-right: -40px;
-    }
-
-    .order__wrapper .section__content-block:nth-child(1) figure:nth-child(2) {
-        margin-top: -40px;
-    }
-
-    .order__wrapper .section__content-block:nth-child(2) figure:nth-child(2) {
-        margin: -100px -40px 0 140px;
     }
 
     /* Market */
