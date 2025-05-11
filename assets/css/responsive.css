@@ -19,6 +19,12 @@
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    :root {
+        --krayt-font-size-base: 20px;
+        --krayt-letter-spacing-base: -0.6px;
+        --krayt-font-size-title: 24px;
+        --krayt-letter-spacing-title: -0.72px;
+    }
     .panel__content-image:nth-child(1) {
         max-width: 50%;
     }
@@ -88,7 +94,7 @@
     .section__preview {
         margin-top: 60px;
         padding: 20px;
-        border-radius: 40px;
+        border-radius: var(--krayt-radius-xl);
     }
 
     .section__content-block {
@@ -97,16 +103,6 @@
 
     .section__content-block + .section__content-block {
         margin-top: 32px;
-    }
-
-    .text-main {
-        font-size: 20px;
-        letter-spacing: -0.6px;
-    }
-
-    .text-title {
-        font-size: 24px;
-        letter-spacing: -0.72px;
     }
 
     .heading.lv2 {
@@ -132,14 +128,14 @@
     }
 
     .button {
-        background: #f7f7f9;
+        background: var(--krayt-main-bg);
         width: 64px;
         height: 64px;
     }
 
     .button.next:hover,
     .button.prev:hover {
-        background-color: #ececf0;
+        background-color: var(--krayt-main-bg-hover);
     }
 
     .button.next:active,
@@ -157,7 +153,7 @@
     }
 
     .block {
-        border-radius: 40px;
+        border-radius: var(--krayt-radius-xl);
         padding: 60px;
     }
 
@@ -176,7 +172,7 @@
         left: 20px;
         width: 32px;
         height: 32px;
-        border-radius: 50%;
+        border-radius: var(--krayt-radius-rounded);
         background-color: transparent;
     }
     .note-desktop.note-orange {
@@ -201,7 +197,7 @@
         transform: translate(-50%, -50%);
         width: 12px;
         height: 12px;
-        border-radius: 50%;
+        border-radius: var(--krayt-radius-rounded);
         background-color: var(--current-color);
     }
 
@@ -239,13 +235,13 @@
         opacity: 0;
         font-size: 1.5rem;
         line-height: 1.4;
-        color: #66666a;
+        color: var(--krayt-color-main-text);
         visibility: hidden;
         padding: 20px;
-        -webkit-box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.15);
-        box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.15);
-        border-radius: 16px;
-        background-color: #fff;
+        -webkit-box-shadow: var(--krayt-box-shadow-note);
+        box-shadow: var(--krayt-box-shadow-note);
+        border-radius: var(--krayt-radius-sm);
+        background-color: var(--krayt-color-white);
     }
 
     .note-desktop-text::after,
@@ -257,7 +253,7 @@
         width: 12px;
         height: 12px;
         border-radius: 2px;
-        background-color: #fff;
+        background-color: var(--krayt-color-white);
     }
 
     .note-desktop-text::before {
@@ -467,14 +463,19 @@
 
     /* hero */
     .hero {
-        margin-top: 40px;
+        margin-top: 60px;
         padding: 60px;
     }
     .hero .heading.lv2 {
         font-size: 72px;
         font-weight: 700;
-        line-height: 100%;
-        letter-spacing: -2.16px;
+        line-height: 120%;
+        letter-spacing: -2.88px;
+    }
+
+    .hero__video {
+        margin-top: 28px;
+        margin-bottom: 48px;
     }
 
     .hero__advantages {
@@ -497,6 +498,11 @@
 
     .hero__advantage-title {
         margin-bottom: 20px;
+        line-height: 1;
+    }
+
+    .hero__advantage:first-child .text-main {
+        width: 460px;
     }
 
     /* compliance */
@@ -527,27 +533,10 @@
 
     .compliance__left-block {
         width: 540px;
+        border-radius: var(--krayt-radius-sm);
     }
 
     /* Panel */
-    .panel {
-        margin-top: 158px;
-    }
-
-    .panel .button {
-        background-color: #e2e2e5;
-    }
-
-    .panel .button:hover {
-        background-color: #d0d0d4;
-    }
-
-    .panel .button:active {
-        -webkit-transform: scale(0.875);
-        -ms-transform: scale(0.875);
-        transform: scale(0.875);
-    }
-
     .panel .heading.lv2 {
         margin-bottom: 40px;
     }
@@ -649,6 +638,7 @@
         height: 180px;
         padding: 30px;
         width: calc((100% - 40px) / 3);
+        border-radius: var(--krayt-radius-lg);
     }
 
     .rules__image {
@@ -752,6 +742,7 @@
         height: 180px;
         padding: 30px;
         width: calc((100% - 40px) / 3);
+        border-radius: 32px;
     }
 
     .similar__image {
@@ -870,6 +861,10 @@
     .swiper-pagination-bullet {
         width: 10px;
         height: 10px;
+    }
+    .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 6px;
     }
 }
 

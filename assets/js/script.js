@@ -1,6 +1,6 @@
 // Slider
 new Swiper(".swiper-modes", {
-    slidesPerView: 1.35,
+    slidesPerView: 1.22,
     spaceBetween: 10,
     pagination: {
         el: ".modes .swiper-pagination",
