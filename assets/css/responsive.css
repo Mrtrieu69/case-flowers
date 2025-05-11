@@ -73,7 +73,7 @@
     }
 
     .section__info-left .heading {
-        margin-bottom: 32px;
+        margin-bottom: var(--krayt-spacing-md);
     }
 
     .section__head > *,
@@ -92,17 +92,17 @@
     }
 
     .section__preview {
-        margin-top: 60px;
+        margin-top: var(--krayt-spacing-xl);
         padding: 20px;
         border-radius: var(--krayt-radius-xl);
     }
 
     .section__content-block {
-        margin-top: 60px;
+        margin-top: var(--krayt-spacing-xl);
     }
 
     .section__content-block + .section__content-block {
-        margin-top: 32px;
+        margin-top: var(--krayt-spacing-md);
     }
 
     .heading.lv2 {
@@ -463,7 +463,7 @@
 
     /* hero */
     .hero {
-        margin-top: 60px;
+        margin-top: var(--krayt-spacing-xl);
         padding: 60px;
     }
     .hero .heading.lv2 {
@@ -479,7 +479,7 @@
     }
 
     .hero__advantages {
-        margin-top: 20px;
+        margin-top: var(--krayt-spacing-sm);
         gap: 20px;
     }
 
@@ -497,7 +497,7 @@
     }
 
     .hero__advantage-title {
-        margin-bottom: 20px;
+        margin-bottom: var(--krayt-spacing-sm);
         line-height: 1;
     }
 
@@ -516,7 +516,7 @@
     }
     .compliance__left-title {
         font-size: 48px;
-        margin-bottom: 40px;
+        margin-bottom: var(--krayt-spacing-lg);
     }
 
     .compliance__left-text:first-child {
@@ -538,7 +538,7 @@
 
     /* Panel */
     .panel .heading.lv2 {
-        margin-bottom: 40px;
+        margin-bottom: var(--krayt-spacing-lg);
     }
 
     .panel__desc {
@@ -546,7 +546,7 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        margin-bottom: 60px;
+        margin-bottom: var(--krayt-spacing-xl);
     }
     .panel__desc p:nth-child(1) {
         width: 100%;
@@ -591,8 +591,8 @@
     /* Styles */
     .styles__desc {
         width: 600px;
-        margin-top: 40px;
-        margin-bottom: 60px;
+        margin-top: var(--krayt-spacing-lg);
+        margin-bottom: var(--krayt-spacing-xl);
     }
 
     .styles__content {
@@ -622,7 +622,7 @@
     }
 
     .rules__content {
-        margin-top: 80px;
+        margin-top: var(--krayt-spacing-2xl);
     }
 
     .rules__head > * {
@@ -642,7 +642,7 @@
     }
 
     .rules__image {
-        margin-top: 20px;
+        margin-top: var(--krayt-spacing-sm);
     }
 
     /* Sale */
@@ -652,11 +652,11 @@
     }
 
     .sale__content {
-        margin-top: 80px;
+        margin-top: var(--krayt-spacing-2xl);
     }
 
     .sale__content-text {
-        margin-bottom: 60px;
+        margin-bottom: var(--krayt-spacing-xl);
         max-width: 524px;
     }
 
@@ -682,7 +682,7 @@
     }
 
     .card__content {
-        margin-top: 80px;
+        margin-top: var(--krayt-spacing-2xl);
     }
 
     /* Modes */
@@ -707,7 +707,7 @@
     }
 
     .modes__content {
-        margin-top: 60px;
+        margin-top: var(--krayt-spacing-xl);
     }
 
     .modes__content-item {
@@ -716,17 +716,17 @@
     }
 
     .modes__content-image {
-        margin-left: 60px;
-        margin-bottom: 40px;
+        margin-left: 50px;
+        margin-bottom: var(--krayt-spacing-lg);
     }
 
     .modes .swiper-pagination {
-        margin-top: 32px;
+        margin-top: var(--krayt-spacing-md);
     }
 
     /* Similar */
     .similar__content {
-        margin-top: 60px;
+        margin-top: var(--krayt-spacing-xl);
     }
 
     .similar__head > * {
@@ -746,7 +746,7 @@
     }
 
     .similar__image {
-        margin-top: 20px;
+        margin-top: var(--krayt-spacing-sm);
     }
 
     /* Art */
@@ -755,17 +755,17 @@
     }
 
     .art__content {
-        margin-top: 60px;
+        margin-top: var(--krayt-spacing-xl);
     }
 
     .art__content .heading.lv3 {
-        margin-bottom: 40px;
+        margin-bottom: var(--krayt-spacing-lg);
         display: block;
     }
 
     /* Order */
     .order__wrapper {
-        margin-top: 60px;
+        margin-top: var(--krayt-spacing-xl);
         -webkit-column-gap: 20px;
         -moz-column-gap: 20px;
         column-gap: 20px;
@@ -850,7 +850,7 @@
         margin-top: 75px;
     }
     .market__foot .heading.lv4 {
-        margin-bottom: 32px;
+        margin-bottom: var(--krayt-spacing-md);
     }
 
     .market__foot .text-main {
