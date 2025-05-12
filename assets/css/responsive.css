@@ -19,18 +19,33 @@
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .panel__content-image:nth-child(1) {
+        max-width: 55%;
+    }
+    .sale__content-images {
+        display: flex;
+        gap: 104px;
+        margin-top: 0;
+    }
+
+    .sale__content-image:first-child {
+        position: relative;
+        left: unset;
+        bottom: unset;
+        width: unset;
+        transform: unset;
+        translate: unset;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
     :root {
         --krayt-font-size-base: 20px;
         --krayt-letter-spacing-base: -0.6px;
         --krayt-font-size-title: 24px;
         --krayt-letter-spacing-title: -0.72px;
     }
-    .panel__content-image:nth-child(1) {
-        max-width: 50%;
-    }
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+
     html {
         font-size: 62.5% !important;
     }
@@ -149,7 +164,6 @@
     .button.prev::after {
         width: 10px;
         height: 20px;
-        background-color: var(--krayt-black-color);
     }
 
     .block {
@@ -536,6 +550,12 @@
         border-radius: var(--krayt-radius-sm);
     }
 
+    .compliance__right {
+        margin-top: 0;
+        margin-left: auto;
+        width: 335px;
+    }
+
     /* Panel */
     .panel .heading.lv2 {
         margin-bottom: var(--krayt-spacing-lg);
@@ -660,21 +680,6 @@
         max-width: 524px;
     }
 
-    .sale__content-images {
-        display: flex;
-        gap: 104px;
-        margin-top: 0;
-    }
-
-    .sale__content-image:first-child {
-        position: relative;
-        left: unset;
-        bottom: unset;
-        width: unset;
-        transform: unset;
-        translate: unset;
-    }
-
     /* Card */
     .card__head .text-main p {
         margin-left: 16px;
@@ -686,6 +691,10 @@
     }
 
     /* Modes */
+    .modes {
+        margin-top: -50px;
+    }
+
     .modes .subtitle {
         margin-bottom: 8px;
     }
@@ -725,6 +734,10 @@
     }
 
     /* Similar */
+    .similar {
+        margin-top: -50px;
+    }
+
     .similar__content {
         margin-top: var(--krayt-spacing-xl);
     }
@@ -764,6 +777,10 @@
     }
 
     /* Order */
+    .order {
+        margin-top: -50px;
+    }
+
     .order__wrapper {
         margin-top: var(--krayt-spacing-xl);
         -webkit-column-gap: 20px;

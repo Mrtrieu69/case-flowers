@@ -136,7 +136,7 @@ figure {
     width: calc(100vw - 32px);
     max-width: 1300px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .section {
@@ -365,7 +365,8 @@ figure {
 }
 
 .button.prev::after,
-.button.next::after {
+.button.next::after,
+.button.play::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -380,6 +381,7 @@ figure {
     mask-position: center;
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
+    background-color: var(--krayt-color-title);
 }
 
 .button.next::after {
@@ -387,7 +389,6 @@ figure {
     height: 10px;
     -webkit-mask-image: url(../icons/next.svg);
     mask-image: url(../icons/next.svg);
-    background-color: white;
 }
 
 .button.prev::after {
@@ -395,7 +396,23 @@ figure {
     height: 10px;
     -webkit-mask-image: url(../icons/prev.svg);
     mask-image: url(../icons/prev.svg);
-    background-color: white;
+}
+
+.button.play::after {
+    width: 16px;
+    height: 16px;
+    -webkit-mask-image: url(../icons/play.svg);
+    mask-image: url(../icons/play.svg);
+}
+
+.button.play:active {
+    -webkit-transform: scale(0.875);
+    -ms-transform: scale(0.875);
+    transform: scale(0.875);
+}
+
+.button.play:hover {
+    background-color: var(--krayt-main-bg-hover);
 }
 
 /* Notes */
@@ -495,10 +512,6 @@ figure {
 }
 
 /* compliance */
-.compliance__left {
-    /* margin-bottom: var(--krayt-spacing-lg); */
-}
-
 .compliance__left-title {
     color: var(--krayt-color-title);
     font-size: 20px;
@@ -534,6 +547,23 @@ figure {
     position: relative;
     border-radius: 8px;
     overflow: hidden;
+}
+
+.compliance__right img {
+    width: 100%;
+}
+
+.compliance__right-play {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.compliance__right-play .button.play {
+    width: 90px;
+    height: 90px;
 }
 
 /* Panel */
@@ -720,10 +750,6 @@ figure {
 }
 
 /* Modes */
-.modes {
-    margin-top: -50px;
-}
-
 .modes .subtitle {
     margin-bottom: var(--krayt-spacing-xs);
 }
@@ -764,10 +790,6 @@ figure {
 }
 
 /* Similar */
-.similar {
-    margin-top: -50px;
-}
-
 .similar__content {
     margin-top: var(--krayt-spacing-lg);
 }
@@ -817,10 +839,6 @@ figure {
 }
 
 /* Order */
-.order {
-    margin-top: -50px;
-}
-
 .order .section__content-block figure {
     -webkit-filter: unset;
     filter: unset;
